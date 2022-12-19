@@ -1,0 +1,11 @@
+.img-banner {
+    width: 400px;
+    height: 600px;
+}
+
+.banner-container {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
