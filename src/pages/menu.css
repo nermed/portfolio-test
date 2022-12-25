@@ -1,0 +1,14 @@
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px 5px 50px;
+    border: solid 1px #eee;
+}
+
+.menuHeader .menuDropdown {
+    font-weight: 500;
+}
+
+.menuHeader .menuLogo {
+    font-weight: 700;
+}

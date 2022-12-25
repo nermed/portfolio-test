@@ -1,11 +1,187 @@
 .img-banner {
-    width: 400px;
-    height: 600px;
+    width: 500px;
+    height: 100%;
 }
 
 .banner-container {
-    width: 100vh;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding-top: 10px; */
+    padding-left: 50px;
+    height: 100vh;
+}
+
+.left-side {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: solid 1px #eee; */
+}
+
+.left-side .left-side-firstText {
+    display: flex;
+    align-items: center;
+}
+
+.left-side .left-side-lastText:first-child {
+    align-self: center;
+}
+
+.left-side-trirdText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px
+}
+
+.left-side-trirdText p {
+    width: 50%;
+}
+
+.right-side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondBanner h3 {
+    font-weight: 600;
+}
+
+.secondBanner div {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+}
+
+.sponsors img {
+    width: 180px;
+}
+
+.thirdBanner .titles {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+    padding-block: 30px;
+    align-items: center;
+}
+
+.thirdBanner .titles h1 {
+    font-weight: 500;
+    padding-bottom: -10px;
+}
+
+.thirdBanner .products {
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+}
+
+.thirdBanner .products::-webkit-scrollbar {
+    display: none;
+}
+
+.fourBanner .titles {
+    padding-inline: 100px;
+    padding-block: 10px;
+}
+
+.fourBanner .fourBannerContainer {
+    height: 600px;
+    padding-inline: 100px;
+    background-color: #F2F9FF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.fourBanner .fourBannerContainer .fourBannerContainer_firstDiv {
+    padding-block: 60px;
+    width: 50%;
+}
+
+.fourBanner.fourBannerContainer.fourBannerContainer_secondDiv {
+    width: 100%;
+}
+
+.fifthBanner {
+    padding-block: 100px;
+    display: flex;
+    gap: 10px;
+}
+
+.fifthBanner .fifthBanner_firstDiv {
+    width: 40%
+}
+
+.fifthBanner .fifthBanner_firstDiv p {
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.fifthBanner .fifthBanner_secondDiv {
+    width: 60%;
+    padding-inline: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 600px;
+    align-self: center;
+}
+
+.footer {
+    padding-inline: 100px;
+    padding-block: 80px;
+    /* height: 300px; */
+    background-color: #F2F9FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer_firstDiv {
+    width: 40%;
+}
+
+.footer .footer_firstDiv p {
+    width: 80%;
+}
+
+.footer .footer_secondDiv {
+    width: 60%;
+    padding-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer_secondDiv div {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: start;
+}
+
+.footer .footer_secondDiv ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer .footer_secondDiv li {
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 10px;
 }
